@@ -1,0 +1,15 @@
+A simple GIF encoding class library for creating small animated GIF images.  This encoder does not use LZW compression, but instead uses uncompressed GIFs by insert clear codes as needed, and forcing bytes to be nine bits.  Encode an animated gif of three images (ball.png, ball1.png, ball2.png) as follows:
+
+NSString * fileName = [NSString stringWithFormat:@"%@/Documents/foo.gif", NSHomeDirectory()];
+ANGifBitmap * bmp = [[ANGifBitmap alloc] initWithImage:[UIImage imageNamed:@"ball.png"]];
+ANGifBitmap * bmp2 = [[ANGifBitmap alloc] initWithImage:[UIImage imageNamed:@"ball2.png"]];
+ANGifBitmap * bmp3 = [[ANGifBitmap alloc] initWithImage:[UIImage imageNamed:@"ball3.png"]];
+ANGifEncoder * enc = [[ANGifEncoder alloc] initWithFile:fileName animated:YES];
+[enc beginFile:bmp.size
+	 delayTime:0.5];
+[enc addImage:bmp];
+[enc addImage:bmp2];
+[enc addImage:bmp3];
+[enc endFile];
+[enc release];
+NSLog(@"%@", fileName);

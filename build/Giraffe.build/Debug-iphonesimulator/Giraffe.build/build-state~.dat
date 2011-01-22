@@ -1,0 +1,495 @@
+TGiraffe
+v7
+r0
+t317257448.108677
+cCheck dependencies
+cProcessInfoPlistFile /Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app/Info.plist Giraffe-Info.plist
+cCompileXIB /Users/alex/Desktop/Giraffe/MainWindow.xib
+cCompileXIB /Users/alex/Desktop/Giraffe/GiraffeViewController.xib
+cProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Giraffe_Prefix-fneugiyicpqewbarfoiwrzmsfwtk/Giraffe_Prefix.pch.gch Giraffe_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Giraffe_Prefix-fpllfahmbcvthrbzvgmzwvyrpran/Giraffe_Prefix.pch.gch Giraffe_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/main.o /Users/alex/Desktop/Giraffe/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/GiraffeAppDelegate.o /Users/alex/Desktop/Giraffe/Classes/GiraffeAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/GiraffeViewController.o /Users/alex/Desktop/Giraffe/Classes/GiraffeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/ANGifEncoder.o /Users/alex/Desktop/Giraffe/Classes/ANGifEncoder.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/ANGifBitmap.o /Users/alex/Desktop/Giraffe/Classes/ANGifBitmap.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/ANImageBitmapRep.o /Users/alex/Desktop/Giraffe/Classes/ANImageBitmapRep.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/bitio.o /Users/alex/Desktop/Giraffe/Classes/bitio.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/estrings.o /Users/alex/Desktop/Giraffe/Classes/estrings.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/lzwcompress.o /Users/alex/Desktop/Giraffe/Classes/lzwcompress.c normal i386 c com.apple.compilers.gcc.4_2
+cLd /Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app/Giraffe normal i386
+cGenerateDSYMFile /Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app.dSYM /Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app/Giraffe
+cTouch /Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app
+
+N/Users/alex/Desktop/Giraffe/Classes/ANGifBitmap.h
+c000000004D38B1330000000000000164
+t1295561011
+s356
+i<UIKit/UIKit.h>
+i"ANImageBitmapRep.h"
+
+N/Users/alex/Desktop/Giraffe/Classes/ANGifBitmap.m
+c000000004D38B184000000000000025B
+t1295561092
+s603
+i"ANGifBitmap.h"
+
+N/Users/alex/Desktop/Giraffe/Classes/ANGifEncoder.h
+c000000004D38B4D000000000000002CE
+t1295561936
+s718
+i<UIKit/UIKit.h>
+i"ANGifBitmap.h"
+
+N/Users/alex/Desktop/Giraffe/Classes/ANGifEncoder.m
+c000000004D38B8E6000000000000100E
+t1295562982
+s4110
+i"ANGifEncoder.h"
+
+N/Users/alex/Desktop/Giraffe/Classes/ANImageBitmapRep.h
+c000000004CE9490100000000000004AF
+t1290356993
+s1199
+i<UIKit/UIKit.h>
+i<CoreGraphics/CoreGraphics.h>
+
+N/Users/alex/Desktop/Giraffe/Classes/ANImageBitmapRep.m
+c000000004CE95D850000000000002532
+t1290362245
+s9522
+i"ANImageBitmapRep.h"
+
+N/Users/alex/Desktop/Giraffe/Classes/GiraffeAppDelegate.h
+c000000004D38B03300000000000001DE
+t1295560755
+s478
+i<UIKit/UIKit.h>
+
+N/Users/alex/Desktop/Giraffe/Classes/GiraffeAppDelegate.m
+c000000004D38B0330000000000000A94
+t1295560755
+s2708
+i"GiraffeAppDelegate.h"
+i"GiraffeViewController.h"
+
+N/Users/alex/Desktop/Giraffe/Classes/GiraffeViewController.h
+c000000004D38B03300000000000000ED
+t1295560755
+s237
+i<UIKit/UIKit.h>
+
+N/Users/alex/Desktop/Giraffe/Classes/GiraffeViewController.m
+c000000004D38B03300000000000005C0
+t1295560755
+s1472
+i"GiraffeViewController.h"
+
+N/Users/alex/Desktop/Giraffe/Classes/bitio.c
+c000000004D38BF03000000000000068D
+t1295564547
+s1677
+i"bitio.h"
+
+N/Users/alex/Desktop/Giraffe/Classes/bitio.h
+c000000004D38BDAE00000000000001A9
+t1295564206
+s425
+i<stdio.h>
+
+N/Users/alex/Desktop/Giraffe/Classes/estrings.c
+c000000004D38BE670000000000000EA3
+t1295564391
+s3747
+i"estrings.h"
+i<stdio.h>
+
+N/Users/alex/Desktop/Giraffe/Classes/estrings.h
+c000000004D38BE070000000000000308
+t1295564295
+s776
+i<string.h>
+i<stdlib.h>
+i<stdbool.h>
+
+N/Users/alex/Desktop/Giraffe/Classes/lzwcompress.c
+c000000004D38BF3E0000000000001216
+t1295564606
+s4630
+i"lzwcompress.h"
+
+N/Users/alex/Desktop/Giraffe/Classes/lzwcompress.h
+c000000004D38BE9C0000000000000131
+t1295564444
+s305
+i<stdio.h>
+i<stdlib.h>
+i<stdbool.h>
+i<string.h>
+i"bitio.h"
+i"estrings.h"
+
+N/Users/alex/Desktop/Giraffe/GiraffeViewController.xib
+c000000004D38B0330000000000001A45
+t1295560755
+s6725
+
+N/Users/alex/Desktop/Giraffe/Giraffe_Prefix.pch
+c000000004D38B03300000000000000B7
+t1295560755
+s183
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/alex/Desktop/Giraffe/MainWindow.xib
+c000000004D38B0330000000000004E29
+t1295560755
+s20009
+
+N/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app
+t1295564648
+s238
+
+N/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app.dSYM
+t1295564648
+s102
+
+N/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app/Giraffe
+t1295564648
+s51192
+
+N/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app/GiraffeViewController.nib
+t1295564647
+s795
+
+N/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app/Info.plist
+t1295564647
+s591
+
+N/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app/MainWindow.nib
+t1295564647
+s1123
+
+N/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app/PkgInfo
+t1295564647
+s8
+
+N/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/ANGifBitmap.o
+t1295564647
+s10700
+
+N/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/ANGifEncoder.o
+t1295564647
+s20864
+
+N/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/ANImageBitmapRep.o
+t1295564647
+s33436
+
+N/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/Giraffe.LinkFileList
+c000000004D38BF67000000000000042D
+t1295564647
+s1069
+
+N/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/GiraffeAppDelegate.o
+t1295564647
+s50980
+
+N/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/GiraffeViewController.o
+t1295564647
+s37584
+
+N/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/bitio.o
+t1295564647
+s7328
+
+N/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/estrings.o
+t1295564647
+s10640
+
+N/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/lzwcompress.o
+t1295564648
+s10692
+
+N/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/main.o
+t1295564647
+s6340
+
+N/Users/alex/Desktop/Giraffe/main.m
+c000000004D38B0330000000000000168
+t1295560755
+s360
+i<UIKit/UIKit.h>
+
+N/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h
+c000000004CC121DB00000000000004FE
+t1287725531
+s1278
+
+N/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdio.h
+c000000004CB3E48600000000000040AC
+t1286857862
+s16556
+
+N/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdlib.h
+c000000004CB3E4860000000000002DF5
+t1286857862
+s11765
+
+N/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/string.h
+c000000004CB3E4860000000000001731
+t1286857862
+s5937
+
+N/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h
+c000000004A1198340000000000000644
+t1242667060
+s1604
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Giraffe_Prefix-fneugiyicpqewbarfoiwrzmsfwtk/Giraffe_Prefix.pch.gch
+t1295564492
+s15461584
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Giraffe_Prefix-fpllfahmbcvthrbzvgmzwvyrpran/Giraffe_Prefix.pch.gch
+t1295564491
+s2138480
+
+NGiraffe-Info.plist
+c000000004D38B033000000000000038D
+t1295560755
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies317257447#317257447#0(0"0(0#1#0"8629226976#0"0#
+
+CCompileC build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/ANGifBitmap.o /Users/alex/Desktop/Giraffe/Classes/ANGifBitmap.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317257447.677754
+e317257447.870240
+r1
+xCompileC
+xbuild/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/ANGifBitmap.o
+x/Users/alex/Desktop/Giraffe/Classes/ANGifBitmap.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/alex/Desktop/Giraffe/Classes/ANGifBitmap.m317257447#317257447#0(0"0(0#0#49"/Users/alex/Desktop/Giraffe/Classes/ANGifBitmap.m8626030080#1875"    cd /Users/alex/Desktop/Giraffe    setenv LANG en_US.US-ASCII    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-generated-files.hmap -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-own-target-headers.hmap -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-all-target-headers.hmap -iquote /Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-project-headers.hmap -F/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator -I/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/include -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/DerivedSources/i386 -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Giraffe_Prefix-fneugiyicpqewbarfoiwrzmsfwtk/Giraffe_Prefix.pch -c /Users/alex/Desktop/Giraffe/Classes/ANGifBitmap.m -o /Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/ANGifBitmap.o0#
+
+CCompileC build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/ANGifEncoder.o /Users/alex/Desktop/Giraffe/Classes/ANGifEncoder.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317257447.637984
+e317257447.768687
+r1
+xCompileC
+xbuild/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/ANGifEncoder.o
+x/Users/alex/Desktop/Giraffe/Classes/ANGifEncoder.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Desktop/Giraffe/Classes/ANGifEncoder.m: In function '-[ANGifEncoder gifHeader]':
+o/Users/alex/Desktop/Giraffe/Classes/ANGifEncoder.m:82: warning: incompatible Objective-C types initializing 'struct NSData *', expected 'struct NSString *'
+o/Users/alex/Desktop/Giraffe/Classes/ANGifEncoder.m:85: warning: incompatible Objective-C types returning 'struct NSData *', expected 'struct NSString *'
+o/Users/alex/Desktop/Giraffe/Classes/ANGifEncoder.m: In function '-[ANGifEncoder globalColorTable]':
+o/Users/alex/Desktop/Giraffe/Classes/ANGifEncoder.m:93: warning: comparison is always true due to limited range of data type
+lSLF07#2@58"Compile /Users/alex/Desktop/Giraffe/Classes/ANGifEncoder.m317257447#317257447#0(626"/Users/alex/Desktop/Giraffe/Classes/ANGifEncoder.m: In function '-[ANGifEncoder gifHeader]':/Users/alex/Desktop/Giraffe/Classes/ANGifEncoder.m:82: warning: incompatible Objective-C types initializing 'struct NSData *', expected 'struct NSString *'/Users/alex/Desktop/Giraffe/Classes/ANGifEncoder.m:85: warning: incompatible Objective-C types returning 'struct NSData *', expected 'struct NSString *'/Users/alex/Desktop/Giraffe/Classes/ANGifEncoder.m: In function '-[ANGifEncoder globalColorTable]':/Users/alex/Desktop/Giraffe/Classes/ANGifEncoder.m:93: warning: comparison is always true due to limited range of data type3(22@91"Incompatible Objective-C types initializing 'struct NSData *', expected 'struct NSString *'317257447#93#156#0(6@50"/Users/alex/Desktop/Giraffe/Classes/ANGifEncoder.m317255782#82#0#82#0#61"incompatible Objective-C types initializing '*', expected '*'0(22@88"Incompatible Objective-C types returning 'struct NSData *', expected 'struct NSString *'317257447#249#153#0(6@50"/Users/alex/Desktop/Giraffe/Classes/ANGifEncoder.m317255782#85#0#85#0#0"0(22@59"Comparison is always true due to limited range of data type317257447#502#124#0(6@50"/Users/alex/Desktop/Giraffe/Classes/ANGifEncoder.m317255782#93#0#93#0#59"comparison is always true due to limited range of data type0(0#0#50"/Users/alex/Desktop/Giraffe/Classes/ANGifEncoder.m8626434720#1877"    cd /Users/alex/Desktop/Giraffe    setenv LANG en_US.US-ASCII    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-generated-files.hmap -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-own-target-headers.hmap -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-all-target-headers.hmap -iquote /Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-project-headers.hmap -F/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator -I/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/include -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/DerivedSources/i386 -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Giraffe_Prefix-fneugiyicpqewbarfoiwrzmsfwtk/Giraffe_Prefix.pch -c /Users/alex/Desktop/Giraffe/Classes/ANGifEncoder.m -o /Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/ANGifEncoder.o0#
+
+CCompileC build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/ANImageBitmapRep.o /Users/alex/Desktop/Giraffe/Classes/ANImageBitmapRep.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317257447.768788
+e317257448.027968
+r1
+xCompileC
+xbuild/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/ANImageBitmapRep.o
+x/Users/alex/Desktop/Giraffe/Classes/ANImageBitmapRep.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/alex/Desktop/Giraffe/Classes/ANImageBitmapRep.m317257447#317257448#0(0"0(0#0#54"/Users/alex/Desktop/Giraffe/Classes/ANImageBitmapRep.m8624995360#1885"    cd /Users/alex/Desktop/Giraffe    setenv LANG en_US.US-ASCII    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-generated-files.hmap -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-own-target-headers.hmap -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-all-target-headers.hmap -iquote /Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-project-headers.hmap -F/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator -I/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/include -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/DerivedSources/i386 -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Giraffe_Prefix-fneugiyicpqewbarfoiwrzmsfwtk/Giraffe_Prefix.pch -c /Users/alex/Desktop/Giraffe/Classes/ANImageBitmapRep.m -o /Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/ANImageBitmapRep.o0#
+
+CCompileC build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/GiraffeAppDelegate.o /Users/alex/Desktop/Giraffe/Classes/GiraffeAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317257447.492120
+e317257447.637883
+r1
+xCompileC
+xbuild/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/GiraffeAppDelegate.o
+x/Users/alex/Desktop/Giraffe/Classes/GiraffeAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/alex/Desktop/Giraffe/Classes/GiraffeAppDelegate.m317257447#317257447#0(0"0(0#0#56"/Users/alex/Desktop/Giraffe/Classes/GiraffeAppDelegate.m8629024576#1889"    cd /Users/alex/Desktop/Giraffe    setenv LANG en_US.US-ASCII    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-generated-files.hmap -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-own-target-headers.hmap -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-all-target-headers.hmap -iquote /Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-project-headers.hmap -F/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator -I/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/include -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/DerivedSources/i386 -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Giraffe_Prefix-fneugiyicpqewbarfoiwrzmsfwtk/Giraffe_Prefix.pch -c /Users/alex/Desktop/Giraffe/Classes/GiraffeAppDelegate.m -o /Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/GiraffeAppDelegate.o0#
+
+CCompileC build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/GiraffeViewController.o /Users/alex/Desktop/Giraffe/Classes/GiraffeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317257447.571595
+e317257447.677659
+r1
+xCompileC
+xbuild/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/GiraffeViewController.o
+x/Users/alex/Desktop/Giraffe/Classes/GiraffeViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/alex/Desktop/Giraffe/Classes/GiraffeViewController.m317257447#317257447#0(0"0(0#0#59"/Users/alex/Desktop/Giraffe/Classes/GiraffeViewController.m8628844224#1895"    cd /Users/alex/Desktop/Giraffe    setenv LANG en_US.US-ASCII    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-generated-files.hmap -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-own-target-headers.hmap -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-all-target-headers.hmap -iquote /Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-project-headers.hmap -F/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator -I/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/include -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/DerivedSources/i386 -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Giraffe_Prefix-fneugiyicpqewbarfoiwrzmsfwtk/Giraffe_Prefix.pch -c /Users/alex/Desktop/Giraffe/Classes/GiraffeViewController.m -o /Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/GiraffeViewController.o0#
+
+CCompileC build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/bitio.o /Users/alex/Desktop/Giraffe/Classes/bitio.c normal i386 c com.apple.compilers.gcc.4_2
+s317257447.870328
+e317257447.917003
+r1
+xCompileC
+xbuild/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/bitio.o
+x/Users/alex/Desktop/Giraffe/Classes/bitio.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/alex/Desktop/Giraffe/Classes/bitio.c317257447#317257447#0(0"0(0#0#43"/Users/alex/Desktop/Giraffe/Classes/bitio.c8629597568#1809"    cd /Users/alex/Desktop/Giraffe    setenv LANG en_US.US-ASCII    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-generated-files.hmap -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-own-target-headers.hmap -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-all-target-headers.hmap -iquote /Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-project-headers.hmap -F/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator -I/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/include -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/DerivedSources/i386 -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Giraffe_Prefix-fpllfahmbcvthrbzvgmzwvyrpran/Giraffe_Prefix.pch -c /Users/alex/Desktop/Giraffe/Classes/bitio.c -o /Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/bitio.o0#
+
+CCompileC build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/estrings.o /Users/alex/Desktop/Giraffe/Classes/estrings.c normal i386 c com.apple.compilers.gcc.4_2
+s317257447.917102
+e317257447.990931
+r1
+xCompileC
+xbuild/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/estrings.o
+x/Users/alex/Desktop/Giraffe/Classes/estrings.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/alex/Desktop/Giraffe/Classes/estrings.c317257447#317257447#0(0"0(0#0#46"/Users/alex/Desktop/Giraffe/Classes/estrings.c8629475936#1815"    cd /Users/alex/Desktop/Giraffe    setenv LANG en_US.US-ASCII    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-generated-files.hmap -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-own-target-headers.hmap -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-all-target-headers.hmap -iquote /Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-project-headers.hmap -F/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator -I/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/include -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/DerivedSources/i386 -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Giraffe_Prefix-fpllfahmbcvthrbzvgmzwvyrpran/Giraffe_Prefix.pch -c /Users/alex/Desktop/Giraffe/Classes/estrings.c -o /Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/estrings.o0#
+
+CCompileC build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/lzwcompress.o /Users/alex/Desktop/Giraffe/Classes/lzwcompress.c normal i386 c com.apple.compilers.gcc.4_2
+s317257447.991026
+e317257448.056348
+r1
+xCompileC
+xbuild/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/lzwcompress.o
+x/Users/alex/Desktop/Giraffe/Classes/lzwcompress.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/alex/Desktop/Giraffe/Classes/lzwcompress.c317257447#317257448#0(0"0(0#0#49"/Users/alex/Desktop/Giraffe/Classes/lzwcompress.c8629262016#1821"    cd /Users/alex/Desktop/Giraffe    setenv LANG en_US.US-ASCII    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-generated-files.hmap -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-own-target-headers.hmap -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-all-target-headers.hmap -iquote /Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-project-headers.hmap -F/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator -I/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/include -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/DerivedSources/i386 -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Giraffe_Prefix-fpllfahmbcvthrbzvgmzwvyrpran/Giraffe_Prefix.pch -c /Users/alex/Desktop/Giraffe/Classes/lzwcompress.c -o /Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/lzwcompress.o0#
+
+CCompileC build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/main.o /Users/alex/Desktop/Giraffe/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317257447.491149
+e317257447.571486
+r1
+xCompileC
+xbuild/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/main.o
+x/Users/alex/Desktop/Giraffe/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@42"Compile /Users/alex/Desktop/Giraffe/main.m317257447#317257447#0(0"0(0#0#34"/Users/alex/Desktop/Giraffe/main.m8629187168#1853"    cd /Users/alex/Desktop/Giraffe    setenv LANG en_US.US-ASCII    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-generated-files.hmap -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-own-target-headers.hmap -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-all-target-headers.hmap -iquote /Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-project-headers.hmap -F/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator -I/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/include -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/DerivedSources/i386 -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Giraffe_Prefix-fneugiyicpqewbarfoiwrzmsfwtk/Giraffe_Prefix.pch -c /Users/alex/Desktop/Giraffe/main.m -o /Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/alex/Desktop/Giraffe/GiraffeViewController.xib
+s317257447.019106
+e317257447.450675
+r1
+xCompileXIB
+x/Users/alex/Desktop/Giraffe/GiraffeViewController.xib
+lSLF07#2@36"CompileXIB GiraffeViewController.xib317257447#317257447#0(0"0(0#0#53"/Users/alex/Desktop/Giraffe/GiraffeViewController.xib8625767200#619"    cd /Users/alex/Desktop/Giraffe    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app/GiraffeViewController.nib /Users/alex/Desktop/Giraffe/GiraffeViewController.xib --sdk /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/alex/Desktop/Giraffe/MainWindow.xib
+s317257447.018433
+e317257447.490863
+r1
+xCompileXIB
+x/Users/alex/Desktop/Giraffe/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib317257447#317257447#0(0"0(0#0#42"/Users/alex/Desktop/Giraffe/MainWindow.xib8625917952#597"    cd /Users/alex/Desktop/Giraffe    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app/MainWindow.nib /Users/alex/Desktop/Giraffe/MainWindow.xib --sdk /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile /Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app.dSYM /Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app/Giraffe
+s317257448.086299
+e317257448.105565
+r1
+xGenerateDSYMFile
+x/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app.dSYM
+x/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app/Giraffe
+lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/Giraffe.app.dSYM build/Debug-iphonesimulator/Giraffe.app/Giraffe317257448#317257448#0(0"0(0#0#75"/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app/Giraffe8626516256#395"    cd /Users/alex/Desktop/Giraffe    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/usr/bin/dsymutil /Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app/Giraffe -o /Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app.dSYM0#
+
+CLd /Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app/Giraffe normal i386
+s317257448.056440
+e317257448.086197
+r1
+xLd
+x/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app/Giraffe
+xnormal
+xi386
+lSLF07#2@80"Link /Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app/Giraffe317257448#317257448#0(0"0(0#0#0"8628902592#905"    cd /Users/alex/Desktop/Giraffe    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator -F/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator -filelist /Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Objects-normal/i386/Giraffe.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app/Giraffe0#
+
+CProcessInfoPlistFile /Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app/Info.plist Giraffe-Info.plist
+s317257447.015154
+e317257447.018363
+r1
+xProcessInfoPlistFile
+x/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app/Info.plist
+xGiraffe-Info.plist
+lSLF07#2@26"Process Giraffe-Info.plist317257447#317257447#0(0"0(0#0#46"/Users/alex/Desktop/Giraffe/Giraffe-Info.plist8626534816#476"    cd /Users/alex/Desktop/Giraffe    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Giraffe-Info.plist -genpkginfo /Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app/Info.plist0#
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Giraffe_Prefix-fneugiyicpqewbarfoiwrzmsfwtk/Giraffe_Prefix.pch.gch Giraffe_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s317257289.948418
+e317257292.909303
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Giraffe_Prefix-fneugiyicpqewbarfoiwrzmsfwtk/Giraffe_Prefix.pch.gch
+xGiraffe_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile Giraffe_Prefix.pch317257289#317257292#0(0"0(0#0#46"/Users/alex/Desktop/Giraffe/Giraffe_Prefix.pch8630646880#1756"    cd /Users/alex/Desktop/Giraffe    setenv LANG en_US.US-ASCII    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-generated-files.hmap -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-own-target-headers.hmap -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-all-target-headers.hmap -iquote /Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-project-headers.hmap -F/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator -I/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/include -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/DerivedSources/i386 -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/DerivedSources -c /Users/alex/Desktop/Giraffe/Giraffe_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Giraffe_Prefix-fneugiyicpqewbarfoiwrzmsfwtk/Giraffe_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Giraffe_Prefix-fpllfahmbcvthrbzvgmzwvyrpran/Giraffe_Prefix.pch.gch Giraffe_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+s317257289.949294
+e317257291.451552
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Giraffe_Prefix-fpllfahmbcvthrbzvgmzwvyrpran/Giraffe_Prefix.pch.gch
+xGiraffe_Prefix.pch
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile Giraffe_Prefix.pch317257289#317257291#0(0"0(0#0#46"/Users/alex/Desktop/Giraffe/Giraffe_Prefix.pch8630450368#1702"    cd /Users/alex/Desktop/Giraffe    setenv LANG en_US.US-ASCII    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-generated-files.hmap -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-own-target-headers.hmap -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-all-target-headers.hmap -iquote /Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/Giraffe-project-headers.hmap -F/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator -I/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/include -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/DerivedSources/i386 -I/Users/alex/Desktop/Giraffe/build/Giraffe.build/Debug-iphonesimulator/Giraffe.build/DerivedSources -c /Users/alex/Desktop/Giraffe/Giraffe_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Giraffe_Prefix-fpllfahmbcvthrbzvgmzwvyrpran/Giraffe_Prefix.pch.gch0#
+
+CTouch /Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app
+s317257448.105651
+e317257448.108646
+r1
+xTouch
+x/Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app
+lSLF07#2@73"Touch /Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app317257448#317257448#0(0"0(0#0#0"8626231296#286"    cd /Users/alex/Desktop/Giraffe    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/alex/Desktop/Giraffe/build/Debug-iphonesimulator/Giraffe.app0#
+
