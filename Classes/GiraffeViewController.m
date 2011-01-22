@@ -35,15 +35,15 @@
 
 - (void)convert {
 	NSString * fileName = [NSString stringWithFormat:@"%@/Documents/foo.gif", NSHomeDirectory()];
-	ANGifBitmap * bmp = [[ANGifBitmap alloc] initWithImage:[UIImage imageNamed:@"foo.png"]];
+	ANGifBitmap * bmp = [[ANGifBitmap alloc] initWithImage:[UIImage imageNamed:@"ball.png"]];
 	ANGifBitmap * bmp2 = [[ANGifBitmap alloc] initWithImage:[UIImage imageNamed:@"ball2.png"]];
 	ANGifBitmap * bmp3 = [[ANGifBitmap alloc] initWithImage:[UIImage imageNamed:@"ball3.png"]];
 	ANGifEncoder * enc = [[ANGifEncoder alloc] initWithFile:fileName animated:YES];
 	[enc beginFile:bmp.size
 		 delayTime:0.5];
 	[enc addImage:bmp];
-	//[enc addImage:bmp2];
-	//[enc addImage:bmp3];
+	[enc addImage:bmp2];
+	[enc addImage:bmp3];
 	[enc endFile];
 	[enc release];
 	NSLog(@"%@", fileName);

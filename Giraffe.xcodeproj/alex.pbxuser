@@ -56,41 +56,30 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 317368985;
-			PBXWorkspaceStateSaveDate = 317368985;
+			PBXPerProjectTemplateStateSaveDate = 317370233;
+			PBXWorkspaceStateSaveDate = 317370233;
 		};
 		perUserProjectItems = {
-			FA100E9112EA94A600419E21 = FA100E9112EA94A600419E21 /* PBXTextBookmark */;
 			FA2851AD12EAA39500059EF7 = FA2851AD12EAA39500059EF7 /* PBXBookmark */;
 			FA2851AE12EAA39500059EF7 = FA2851AE12EAA39500059EF7 /* PBXTextBookmark */;
-			FA2851B312EAA45D00059EF7 = FA2851B312EAA45D00059EF7 /* PBXTextBookmark */;
 			FA5E0D3512EA9F3400892190 = FA5E0D3512EA9F3400892190 /* PBXTextBookmark */;
 			FA5E0D3812EA9F3400892190 = FA5E0D3812EA9F3400892190 /* PlistBookmark */;
-			FA5E0D3912EA9F3400892190 = FA5E0D3912EA9F3400892190 /* PBXTextBookmark */;
-			FA5E0D4612EAA0C900892190 = FA5E0D4612EAA0C900892190 /* PBXTextBookmark */;
 			FA5E0D4712EAA0C900892190 = FA5E0D4712EAA0C900892190 /* PBXTextBookmark */;
 			FA5E0D4812EAA0C900892190 = FA5E0D4812EAA0C900892190 /* PBXTextBookmark */;
-			FA5E0D4912EAA0C900892190 = FA5E0D4912EAA0C900892190 /* PBXTextBookmark */;
-			FA5E0D4F12EAA1E200892190 = FA5E0D4F12EAA1E200892190 /* PBXTextBookmark */;
-			FA5E0D5012EAA1E200892190 = FA5E0D5012EAA1E200892190 /* PBXBookmark */;
 			FA5E0D5112EAA1E200892190 = FA5E0D5112EAA1E200892190 /* PBXBookmark */;
-			FAAD6A5512EAAAA1002852AE /* PBXTextBookmark */ = FAAD6A5512EAAAA1002852AE /* PBXTextBookmark */;
-			FAAD6A5D12EAAAB1002852AE /* PBXTextBookmark */ = FAAD6A5D12EAAAB1002852AE /* PBXTextBookmark */;
+			FAAD6A8312EAAF61002852AE = FAAD6A8312EAAF61002852AE /* PBXTextBookmark */;
+			FAAD6A8412EAAF61002852AE = FAAD6A8412EAAF61002852AE /* PBXTextBookmark */;
+			FAAD6A8512EAAF61002852AE = FAAD6A8512EAAF61002852AE /* PBXTextBookmark */;
+			FAAD6A8612EAAF61002852AE = FAAD6A8612EAAF61002852AE /* PBXTextBookmark */;
+			FAAD6A8712EAAF61002852AE = FAAD6A8712EAAF61002852AE /* PBXBookmark */;
+			FAAD6A8812EAAF61002852AE = FAAD6A8812EAAF61002852AE /* PBXBookmark */;
+			FAAD6A8912EAAF61002852AE = FAAD6A8912EAAF61002852AE /* PBXTextBookmark */;
+			FAAD6A8A12EAAF61002852AE = FAAD6A8A12EAAF61002852AE /* PBXTextBookmark */;
 			FAB9F90912EA589100DE93FB = FAB9F90912EA589100DE93FB /* PBXTextBookmark */;
 		};
 		sourceControlManager = FAAA68A512E8E7B400122030 /* Source Control */;
 		userBuildSettings = {
 		};
-	};
-	FA100E9112EA94A600419E21 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = FAAA68AC12E8E81D00122030 /* ANGifBitmap.m */;
-		name = "ANGifBitmap.m: 45";
-		rLen = 0;
-		rLoc = 1144;
-		rType = 0;
-		vrLen = 579;
-		vrLoc = 815;
 	};
 	FA2851AD12EAA39500059EF7 /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -105,16 +94,6 @@
 		rType = 0;
 		vrLen = 486;
 		vrLoc = 624;
-	};
-	FA2851B312EAA45D00059EF7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* GiraffeViewController.m */;
-		name = "GiraffeViewController.m: 45";
-		rLen = 0;
-		rLoc = 1280;
-		rType = 0;
-		vrLen = 436;
-		vrLoc = 931;
 	};
 	FA5E0D3512EA9F3400892190 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -137,26 +116,6 @@
 		rLen = 0;
 		rLoc = 9223372036854775808;
 	};
-	FA5E0D3912EA9F3400892190 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = FAAA68B512E8E85100122030 /* ANImageBitmapRep.m */;
-		name = "ANImageBitmapRep.m: 235";
-		rLen = 51;
-		rLoc = 6987;
-		rType = 0;
-		vrLen = 387;
-		vrLoc = 6840;
-	};
-	FA5E0D4612EAA0C900892190 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* GiraffeViewController.m */;
-		name = "GiraffeViewController.m: 41";
-		rLen = 0;
-		rLoc = 1154;
-		rType = 0;
-		vrLen = 598;
-		vrLoc = 725;
-	};
 	FA5E0D4712EAA0C900892190 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = FAB9F66712EA244700DE93FB /* BitBuffer.h */;
@@ -176,30 +135,6 @@
 		rType = 0;
 		vrLen = 459;
 		vrLoc = 579;
-	};
-	FA5E0D4912EAA0C900892190 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = FAAA68A912E8E7D900122030 /* ANGifEncoder.m */;
-		name = "ANGifEncoder.m: 10";
-		rLen = 0;
-		rLoc = 164;
-		rType = 0;
-		vrLen = 246;
-		vrLoc = 0;
-	};
-	FA5E0D4F12EAA1E200892190 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = FAAA68A812E8E7D900122030 /* ANGifEncoder.h */;
-		name = "ANGifEncoder.h: 18";
-		rLen = 0;
-		rLoc = 343;
-		rType = 0;
-		vrLen = 272;
-		vrLoc = 76;
-	};
-	FA5E0D5012EAA1E200892190 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = FA5E0D3112EA9F1600892190 /* ball3.png */;
 	};
 	FA5E0D5112EAA1E200892190 /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -253,16 +188,16 @@
 	};
 	FAAA68A812E8E7D900122030 /* ANGifEncoder.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 532}}";
+			sepNavIntBoundsRect = "{{0, 0}, {519, 518}}";
 			sepNavSelRange = "{343, 0}";
-			sepNavVisRange = "{76, 272}";
+			sepNavVisRange = "{139, 209}";
 		};
 	};
 	FAAA68A912E8E7D900122030 /* ANGifEncoder.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 4186}}";
-			sepNavSelRange = "{164, 0}";
-			sepNavVisRange = "{0, 246}";
+			sepNavIntBoundsRect = "{{0, 0}, {519, 4284}}";
+			sepNavSelRange = "{3899, 28}";
+			sepNavVisRange = "{4106, 256}";
 		};
 	};
 	FAAA68AB12E8E81D00122030 /* ANGifBitmap.h */ = {
@@ -274,9 +209,9 @@
 	};
 	FAAA68AC12E8E81D00122030 /* ANGifBitmap.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 826}}";
-			sepNavSelRange = "{1144, 0}";
-			sepNavVisRange = "{815, 579}";
+			sepNavIntBoundsRect = "{{0, 0}, {519, 910}}";
+			sepNavSelRange = "{1395, 0}";
+			sepNavVisRange = "{1148, 392}";
 		};
 	};
 	FAAA68B412E8E85100122030 /* ANImageBitmapRep.h */ = {
@@ -288,30 +223,85 @@
 	};
 	FAAA68B512E8E85100122030 /* ANImageBitmapRep.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 4858}}";
+			sepNavIntBoundsRect = "{{0, 0}, {519, 4900}}";
 			sepNavSelRange = "{6987, 51}";
-			sepNavVisRange = "{6840, 387}";
+			sepNavVisRange = "{6985, 285}";
 		};
 	};
-	FAAD6A5512EAAAA1002852AE /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* GiraffeViewController.m */;
-		name = "GiraffeViewController.m: 45";
-		rLen = 0;
-		rLoc = 1280;
-		rType = 0;
-		vrLen = 435;
-		vrLoc = 931;
+	FAAD6A5912EAAAA7002852AE /* foo.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = foo.png;
+		path = /Users/alex/xCode/git/Giraffe/foo.png;
+		sourceTree = "<absolute>";
 	};
-	FAAD6A5D12EAAAB1002852AE /* PBXTextBookmark */ = {
+	FAAD6A8312EAAF61002852AE /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* GiraffeViewController.m */;
 		name = "GiraffeViewController.m: 46";
 		rLen = 0;
 		rLoc = 1289;
 		rType = 0;
-		vrLen = 346;
+		vrLen = 344;
 		vrLoc = 1023;
+	};
+	FAAD6A8412EAAF61002852AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA68A812E8E7D900122030 /* ANGifEncoder.h */;
+		name = "ANGifEncoder.h: 18";
+		rLen = 0;
+		rLoc = 343;
+		rType = 0;
+		vrLen = 209;
+		vrLoc = 139;
+	};
+	FAAD6A8512EAAF61002852AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA68B512E8E85100122030 /* ANImageBitmapRep.m */;
+		name = "ANImageBitmapRep.m: 235";
+		rLen = 51;
+		rLoc = 6987;
+		rType = 0;
+		vrLen = 285;
+		vrLoc = 6985;
+	};
+	FAAD6A8612EAAF61002852AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA68A912E8E7D900122030 /* ANGifEncoder.m */;
+		name = "ANGifEncoder.m: 147";
+		rLen = 28;
+		rLoc = 3899;
+		rType = 0;
+		vrLen = 256;
+		vrLoc = 4106;
+	};
+	FAAD6A8712EAAF61002852AE /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = FA5E0D3112EA9F1600892190 /* ball3.png */;
+	};
+	FAAD6A8812EAAF61002852AE /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = FAAD6A5912EAAAA7002852AE /* foo.png */;
+	};
+	FAAD6A8912EAAF61002852AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA68AC12E8E81D00122030 /* ANGifBitmap.m */;
+		name = "ANGifBitmap.m: 49";
+		rLen = 0;
+		rLoc = 1348;
+		rType = 0;
+		vrLen = 357;
+		vrLoc = 1086;
+	};
+	FAAD6A8A12EAAF61002852AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA68AC12E8E81D00122030 /* ANGifBitmap.m */;
+		name = "ANGifBitmap.m: 50";
+		rLen = 0;
+		rLoc = 1395;
+		rType = 0;
+		vrLen = 454;
+		vrLoc = 1086;
 	};
 	FAB9F66712EA244700DE93FB /* BitBuffer.h */ = {
 		uiCtxt = {

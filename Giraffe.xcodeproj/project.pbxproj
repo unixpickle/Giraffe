@@ -21,7 +21,6 @@
 		FAAA68AD12E8E81D00122030 /* ANGifBitmap.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAA68AC12E8E81D00122030 /* ANGifBitmap.m */; };
 		FAAA68B612E8E85100122030 /* ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAA68B512E8E85100122030 /* ANImageBitmapRep.m */; };
 		FAAA692212E8FD4C00122030 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAA692112E8FD4C00122030 /* ball.png */; };
-		FAAD6A5A12EAAAA7002852AE /* foo.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAD6A5912EAAAA7002852AE /* foo.png */; };
 		FAB9F66912EA244700DE93FB /* BitBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB9F66812EA244700DE93FB /* BitBuffer.m */; };
 /* End PBXBuildFile section */
 
@@ -48,7 +47,6 @@
 		FAAA68B412E8E85100122030 /* ANImageBitmapRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANImageBitmapRep.h; sourceTree = "<group>"; };
 		FAAA68B512E8E85100122030 /* ANImageBitmapRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANImageBitmapRep.m; sourceTree = "<group>"; };
 		FAAA692112E8FD4C00122030 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
-		FAAD6A5912EAAAA7002852AE /* foo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foo.png; sourceTree = "<group>"; };
 		FAB9F66712EA244700DE93FB /* BitBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitBuffer.h; sourceTree = "<group>"; };
 		FAB9F66812EA244700DE93FB /* BitBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitBuffer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,7 +115,6 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FAAD6A5912EAAAA7002852AE /* foo.png */,
 				FA5E0D3112EA9F1600892190 /* ball3.png */,
 				FA5E0D2812EA9D1900892190 /* ball2.png */,
 				FAAA692112E8FD4C00122030 /* ball.png */,
@@ -201,7 +198,6 @@
 				FAAA692212E8FD4C00122030 /* ball.png in Resources */,
 				FA5E0D2912EA9D1900892190 /* ball2.png in Resources */,
 				FA5E0D3212EA9F1600892190 /* ball3.png in Resources */,
-				FAAD6A5A12EAAAA7002852AE /* foo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

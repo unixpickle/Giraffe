@@ -273,8 +273,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>17</integer>
-									<integer>16</integer>
+									<integer>14</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -298,7 +298,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>389 374 788 504 0 0 1440 878 </string>
+						<string>405 374 788 504 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -309,14 +309,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>GiraffeViewController.m</string>
+								<string>ANGifBitmap.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,27 +322,28 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>GiraffeViewController.m</string>
+										<string>ANGifBitmap.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FAAD6A5D12EAAAB1002852AE</string>
+										<string>FAAD6A8A12EAAF61002852AE</string>
 										<key>history</key>
 										<array>
 											<string>FAB9F90912EA589100DE93FB</string>
-											<string>FA100E9112EA94A600419E21</string>
 											<string>FA5E0D3512EA9F3400892190</string>
 											<string>FA5E0D3812EA9F3400892190</string>
-											<string>FA5E0D3912EA9F3400892190</string>
 											<string>FA5E0D4712EAA0C900892190</string>
 											<string>FA5E0D4812EAA0C900892190</string>
-											<string>FA5E0D4912EAA0C900892190</string>
-											<string>FA5E0D4F12EAA1E200892190</string>
-											<string>FA5E0D5012EAA1E200892190</string>
 											<string>FA5E0D5112EAA1E200892190</string>
 											<string>FA2851AD12EAA39500059EF7</string>
 											<string>FA2851AE12EAA39500059EF7</string>
-											<string>FA2851B312EAA45D00059EF7</string>
+											<string>FAAD6A8312EAAF61002852AE</string>
+											<string>FAAD6A8412EAAF61002852AE</string>
+											<string>FAAD6A8512EAAF61002852AE</string>
+											<string>FAAD6A8612EAAF61002852AE</string>
+											<string>FAAD6A8712EAAF61002852AE</string>
+											<string>FAAD6A8812EAAF61002852AE</string>
+											<string>FAAD6A8912EAAF61002852AE</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -358,7 +357,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {580, 198}}</string>
 								<key>RubberWindowFrame</key>
-								<string>389 374 788 504 0 0 1440 878 </string>
+								<string>405 374 788 504 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -366,6 +365,8 @@
 							<string>198pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -378,7 +379,7 @@
 								<key>Frame</key>
 								<string>{{0, 203}, {580, 260}}</string>
 								<key>RubberWindowFrame</key>
-								<string>389 374 788 504 0 0 1440 878 </string>
+								<string>405 374 788 504 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -542,15 +543,15 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>FAAD6A6512EAAAB1002852AE</string>
+		<string>FAAD6A8B12EAAF61002852AE</string>
 		<string>FAAD6A6612EAAAB1002852AE</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>FAAA68A312E8E7B400122030</string>
-		<string>/Users/alex/xCode/git/Giraffe/Giraffe.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>/Users/alex/xCode/git/Giraffe/Giraffe.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>389 374 788 504 0 0 1440 878 </string>
+	<string>405 374 788 504 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -896,7 +897,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {650, 209}}</string>
 								<key>RubberWindowFrame</key>
-								<string>770 628 650 250 0 0 1440 878 </string>
+								<string>543 561 650 250 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
@@ -925,7 +926,7 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>770 628 650 250 0 0 1440 878 </string>
+			<string>543 561 650 250 0 0 1440 878 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
