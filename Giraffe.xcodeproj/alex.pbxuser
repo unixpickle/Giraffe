@@ -15,9 +15,9 @@
 	};
 	28D7ACF70DDB3853001CB0EB /* GiraffeViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {612, 1162}}";
-			sepNavSelRange = "{746, 617}";
-			sepNavVisRange = "{931, 436}";
+			sepNavIntBoundsRect = "{{0, 0}, {594, 1162}}";
+			sepNavSelRange = "{1289, 0}";
+			sepNavVisRange = "{1023, 346}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -56,16 +56,15 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 317367177;
-			PBXWorkspaceStateSaveDate = 317367177;
+			PBXPerProjectTemplateStateSaveDate = 317368985;
+			PBXWorkspaceStateSaveDate = 317368985;
 		};
 		perUserProjectItems = {
 			FA100E9112EA94A600419E21 = FA100E9112EA94A600419E21 /* PBXTextBookmark */;
-			FA2851AD12EAA39500059EF7 /* PBXBookmark */ = FA2851AD12EAA39500059EF7 /* PBXBookmark */;
-			FA2851AE12EAA39500059EF7 /* PBXTextBookmark */ = FA2851AE12EAA39500059EF7 /* PBXTextBookmark */;
-			FA2851AF12EAA39500059EF7 /* PBXTextBookmark */ = FA2851AF12EAA39500059EF7 /* PBXTextBookmark */;
+			FA2851AD12EAA39500059EF7 = FA2851AD12EAA39500059EF7 /* PBXBookmark */;
+			FA2851AE12EAA39500059EF7 = FA2851AE12EAA39500059EF7 /* PBXTextBookmark */;
+			FA2851B312EAA45D00059EF7 = FA2851B312EAA45D00059EF7 /* PBXTextBookmark */;
 			FA5E0D3512EA9F3400892190 = FA5E0D3512EA9F3400892190 /* PBXTextBookmark */;
-			FA5E0D3612EA9F3400892190 = FA5E0D3612EA9F3400892190 /* PBXTextBookmark */;
 			FA5E0D3812EA9F3400892190 = FA5E0D3812EA9F3400892190 /* PlistBookmark */;
 			FA5E0D3912EA9F3400892190 = FA5E0D3912EA9F3400892190 /* PBXTextBookmark */;
 			FA5E0D4612EAA0C900892190 = FA5E0D4612EAA0C900892190 /* PBXTextBookmark */;
@@ -75,12 +74,8 @@
 			FA5E0D4F12EAA1E200892190 = FA5E0D4F12EAA1E200892190 /* PBXTextBookmark */;
 			FA5E0D5012EAA1E200892190 = FA5E0D5012EAA1E200892190 /* PBXBookmark */;
 			FA5E0D5112EAA1E200892190 = FA5E0D5112EAA1E200892190 /* PBXBookmark */;
-			FA5E0D5212EAA1E200892190 = FA5E0D5212EAA1E200892190 /* PBXBookmark */;
-			FA5E0D5312EAA1E200892190 = FA5E0D5312EAA1E200892190 /* PBXBookmark */;
-			FAAA68D112E8F6A000122030 = FAAA68D112E8F6A000122030 /* PBXTextBookmark */;
-			FAAA68D312E8F6A000122030 = FAAA68D312E8F6A000122030 /* PBXTextBookmark */;
-			FAAA694112E9027F00122030 = FAAA694112E9027F00122030 /* PBXTextBookmark */;
-			FAAA699612E9081900122030 = FAAA699612E9081900122030 /* PBXTextBookmark */;
+			FAAD6A5512EAAAA1002852AE /* PBXTextBookmark */ = FAAD6A5512EAAAA1002852AE /* PBXTextBookmark */;
+			FAAD6A5D12EAAAB1002852AE /* PBXTextBookmark */ = FAAD6A5D12EAAAB1002852AE /* PBXTextBookmark */;
 			FAB9F90912EA589100DE93FB = FAB9F90912EA589100DE93FB /* PBXTextBookmark */;
 		};
 		sourceControlManager = FAAA68A512E8E7B400122030 /* Source Control */;
@@ -111,12 +106,12 @@
 		vrLen = 486;
 		vrLoc = 624;
 	};
-	FA2851AF12EAA39500059EF7 /* PBXTextBookmark */ = {
+	FA2851B312EAA45D00059EF7 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* GiraffeViewController.m */;
-		name = "GiraffeViewController.m: 37";
-		rLen = 617;
-		rLoc = 746;
+		name = "GiraffeViewController.m: 45";
+		rLen = 0;
+		rLoc = 1280;
 		rType = 0;
 		vrLen = 436;
 		vrLoc = 931;
@@ -130,16 +125,6 @@
 		rType = 0;
 		vrLen = 152;
 		vrLoc = 85;
-	};
-	FA5E0D3612EA9F3400892190 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = FAAA68B412E8E85100122030 /* ANImageBitmapRep.h */;
-		name = "ANImageBitmapRep.h: 30";
-		rLen = 51;
-		rLoc = 830;
-		rType = 0;
-		vrLen = 486;
-		vrLoc = 624;
 	};
 	FA5E0D3812EA9F3400892190 /* PlistBookmark */ = {
 		isa = PlistBookmark;
@@ -167,7 +152,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* GiraffeViewController.m */;
 		name = "GiraffeViewController.m: 41";
 		rLen = 0;
-		rLoc = 1155;
+		rLoc = 1154;
 		rType = 0;
 		vrLen = 598;
 		vrLoc = 725;
@@ -219,14 +204,6 @@
 	FA5E0D5112EAA1E200892190 /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = FA5E0D2812EA9D1900892190 /* ball2.png */;
-	};
-	FA5E0D5212EAA1E200892190 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = FAAA692112E8FD4C00122030 /* ball.png */;
-	};
-	FA5E0D5312EAA1E200892190 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = FAAA692112E8FD4C00122030 /* ball.png */;
 	};
 	FAAA689012E8E7B300122030 /* Giraffe */ = {
 		isa = PBXExecutable;
@@ -316,77 +293,25 @@
 			sepNavVisRange = "{6840, 387}";
 		};
 	};
-	FAAA68BC12E8F50500122030 /* bitio.h */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.c.h;
-		name = bitio.h;
-		path = "/Users/alex/xCode/iPhone Apps/Fails/Giraffe/Classes/bitio.h";
-		sourceTree = "<absolute>";
-	};
-	FAAA68BD12E8F50500122030 /* bitio.c */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.c.c;
-		name = bitio.c;
-		path = "/Users/alex/xCode/iPhone Apps/Fails/Giraffe/Classes/bitio.c";
-		sourceTree = "<absolute>";
-	};
-	FAAA68BF12E8F57100122030 /* estrings.h */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.c.h;
-		name = estrings.h;
-		path = "/Users/alex/xCode/iPhone Apps/Fails/Giraffe/Classes/estrings.h";
-		sourceTree = "<absolute>";
-	};
-	FAAA68C012E8F57100122030 /* estrings.c */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.c.c;
-		name = estrings.c;
-		path = "/Users/alex/xCode/iPhone Apps/Fails/Giraffe/Classes/estrings.c";
-		sourceTree = "<absolute>";
-	};
-	FAAA68D112E8F6A000122030 /* PBXTextBookmark */ = {
+	FAAD6A5512EAAAA1002852AE /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = FAAA68BC12E8F50500122030 /* bitio.h */;
-		name = "bitio.h: 2";
-		rLen = 67;
-		rLoc = 1;
-		rType = 0;
-		vrLen = 273;
-		vrLoc = 0;
-	};
-	FAAA68D312E8F6A000122030 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = FAAA68C012E8F57100122030 /* estrings.c */;
-		name = "estrings.c: 166";
+		fRef = 28D7ACF70DDB3853001CB0EB /* GiraffeViewController.m */;
+		name = "GiraffeViewController.m: 45";
 		rLen = 0;
-		rLoc = 3747;
+		rLoc = 1280;
 		rType = 0;
-		vrLen = 416;
-		vrLoc = 3331;
+		vrLen = 435;
+		vrLoc = 931;
 	};
-	FAAA694112E9027F00122030 /* PBXTextBookmark */ = {
+	FAAD6A5D12EAAAB1002852AE /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = FAAA68BF12E8F57100122030 /* estrings.h */;
-		name = "estrings.h: 2";
-		rLen = 86;
-		rLoc = 1;
-		rType = 0;
-		vrLen = 485;
-		vrLoc = 291;
-	};
-	FAAA699612E9081900122030 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = FAAA68BD12E8F50500122030 /* bitio.c */;
-		name = "bitio.c: 59";
+		fRef = 28D7ACF70DDB3853001CB0EB /* GiraffeViewController.m */;
+		name = "GiraffeViewController.m: 46";
 		rLen = 0;
-		rLoc = 967;
+		rLoc = 1289;
 		rType = 0;
-		vrLen = 287;
-		vrLoc = 903;
+		vrLen = 346;
+		vrLoc = 1023;
 	};
 	FAB9F66712EA244700DE93FB /* BitBuffer.h */ = {
 		uiCtxt = {

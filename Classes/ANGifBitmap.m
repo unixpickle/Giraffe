@@ -39,13 +39,15 @@
 			NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 			//NSLog(@"Reading: %d, %d", x, y);
 			UInt32 pixel = [self getPixel:CGPointMake(x,y)];
+			unsigned char * pxlData = (unsigned char *)&pixel;
 			//NSLog(@"Done.");
 			// now we need to compress the pixel
 			UInt8 small = 0;
-			small |= (pixel & 255) / 64;
-			small |= (((pixel >> 8) & 255) / 64) << 2;
-			small |= (((pixel >> 16) & 255) / 64) << 4;
-			small |= (((pixel >> 24) & 255) / 64) << 6;
+			small |= pxlData[1] / 64;
+			small |= (pxlData[2] / 64) << 2;
+			small |= (pxlData[3] / 64) << 4;
+			small |= (pxlData[0] / 64) << 6;
+			if (small == 0) small = 1;
 			[returnData appendBytes:&small length:1];
 			//NSLog(@"Size: %d", [returnData length]);
 			[pool drain];

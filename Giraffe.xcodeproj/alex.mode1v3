@@ -273,8 +273,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>8</integer>
-									<integer>1</integer>
+									<integer>17</integer>
+									<integer>16</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -328,7 +328,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FA2851AF12EAA39500059EF7</string>
+										<string>FAAD6A5D12EAAAB1002852AE</string>
 										<key>history</key>
 										<array>
 											<string>FAB9F90912EA589100DE93FB</string>
@@ -344,7 +344,7 @@
 											<string>FA5E0D5112EAA1E200892190</string>
 											<string>FA2851AD12EAA39500059EF7</string>
 											<string>FA2851AE12EAA39500059EF7</string>
-											<string>FA5E0D4612EAA0C900892190</string>
+											<string>FA2851B312EAA45D00059EF7</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -356,14 +356,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {580, 209}}</string>
+								<string>{{0, 0}, {580, 198}}</string>
 								<key>RubberWindowFrame</key>
 								<string>389 374 788 504 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>209pt</string>
+							<string>198pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -376,14 +376,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 214}, {580, 249}}</string>
+								<string>{{0, 203}, {580, 260}}</string>
 								<key>RubberWindowFrame</key>
 								<string>389 374 788 504 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>249pt</string>
+							<string>260pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -402,9 +402,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>FA2851B012EAA39500059EF7</string>
+				<string>FAAD6A5612EAAAA1002852AE</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>FA2851B112EAA39500059EF7</string>
+				<string>FAAD6A5712EAAAA1002852AE</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -542,8 +542,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>FAAD6A6512EAAAB1002852AE</string>
+		<string>FAAD6A6612EAAAB1002852AE</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>FAAA68A312E8E7B400122030</string>
 		<string>/Users/alex/xCode/git/Giraffe/Giraffe.xcodeproj</string>
+		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
 	<string>389 374 788 504 0 0 1440 878 </string>
@@ -623,7 +627,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>FAAA68A312E8E7B400122030</string>
-				<string>FA2851B212EAA39500059EF7</string>
+				<string>FAAD6A5812EAAAA1002852AE</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -745,13 +749,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>FA5E0D1F12EA9BB400892190</string>
+				<string>FAAD6A5E12EAAAB1002852AE</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>FA5E0D2012EA9BB400892190</string>
-				<string>FA5E0D2112EA9BB400892190</string>
-				<string>FA5E0D2212EA9BB400892190</string>
-				<string>FA5E0D2312EA9BB400892190</string>
-				<string>FA5E0D2412EA9BB400892190</string>
+				<string>FAAD6A5F12EAAAB1002852AE</string>
+				<string>FAAD6A6012EAAAB1002852AE</string>
+				<string>FAAD6A6112EAAAB1002852AE</string>
+				<string>FAAD6A6212EAAAB1002852AE</string>
+				<string>FAAD6A6312EAAAB1002852AE</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -915,7 +919,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>FA5E0D2512EA9BB400892190</string>
+				<string>FAAD6A6412EAAAB1002852AE</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
@@ -925,7 +929,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
