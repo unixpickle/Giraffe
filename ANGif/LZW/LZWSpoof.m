@@ -24,16 +24,14 @@
 	// loop through every byte, write it, and then write a clear code.
 	for (NSUInteger byteIndex = 0; byteIndex < [existingData length]; byteIndex++) {
 		// insert NULL start bit
-		for (NSUInteger bitIndex = byteIndex * 8; bitIndex < (byteIndex + 1) * 8; bitIndex++) {
-			// NSUInteger bitIndexFlip = (bitIndex - (bitIndex % 8)) + (7 - (bitIndex % 8));
-			[destinationBuffer addBit:[existingBuffer getBitAtIndex:bitIndex]];
-		}
+//		for (NSUInteger bitIndex = byteIndex * 8; bitIndex < (byteIndex + 1) * 8; bitIndex++) {
+//			// NSUInteger bitIndexFlip = (bitIndex - (bitIndex % 8)) + (7 - (bitIndex % 8));
+//			[destinationBuffer addBit:[existingBuffer getBitAtIndex:bitIndex]];
+//		}
+		[destinationBuffer addByte:(byteIndex * 8) fromBuffer:existingBuffer];
 		[destinationBuffer addBit:NO];
 		// add clear code (TODO: make this less frequent)
-		for (int i = 0; i < 8; i++) {
-			[destinationBuffer addBit:NO];
-		}
-		[destinationBuffer addBit:YES];
+		[destinationBuffer addLZWClearCode];
 	}
 	
 	// LZW "STOP" directive
@@ -75,20 +73,7 @@
 }
 
 - (void)addBit:(BOOL)flag {
-	NSUInteger endNumber = numBits + 1;
-	if (endNumber / 8 + (endNumber % 8 == 0 ? 0 : 1) > _totalSize) {
-		_totalSize += kAllocBufferSize;
-		_bytePool = (UInt8 *)realloc(_bytePool, _totalSize);
-	}
-	NSUInteger byteIndex = numBits / 8;
-	// UInt8 byteMask = (1 << (7 - (numBits % 8)));
-	UInt8 byteMask = (1 << (numBits % 8));
-	if (flag) {
-		_bytePool[byteIndex] |= byteMask;
-	} else {
-		_bytePool[byteIndex] &= (0xff ^ byteMask);
-	}
-	numBits += 1;
+	LZWDataAddBit(&_bytePool, &_totalSize, &numBits, flag);
 }
 
 - (BOOL)getBitAtIndex:(NSUInteger)bitIndex {
@@ -97,10 +82,25 @@
 									   reason:@"The specified bit index is beyond the bounds of the buffer."
 									 userInfo:nil];
 	}
-	NSUInteger byteIndex = bitIndex / 8;
-	UInt8 byteMask = (1 << (bitIndex % 8));
-	return (((_bytePool[byteIndex] & byteMask) == 0) ? NO : YES);
+	return LZWDataGetBit(_bytePool, bitIndex);
 }
+
+#pragma mark LZW
+
+- (void)addLZWClearCode {
+	for (int i = 0; i < 8; i++) {
+		LZWDataAddBit(&_bytePool, &_totalSize, &numBits, NO);
+	}
+	LZWDataAddBit(&_bytePool, &_totalSize, &numBits, YES);
+}
+
+- (void)addByte:(NSUInteger)startBit fromBuffer:(LZWSpoof *)source {
+	for (NSUInteger bitIndex = startBit; bitIndex < startBit + 8; bitIndex++) {
+		LZWDataAddBit(&_bytePool, &_totalSize, &numBits, [source getBitAtIndex:bitIndex]);
+	}
+}
+
+#pragma mark Data
 
 - (NSData *)convertToData {
 	NSUInteger numBytes = numBits / 8 + (numBits % 8 == 0 ? 0 : 1);
@@ -115,3 +115,25 @@
 }
 
 @end
+
+void LZWDataAddBit (UInt8 ** _bytePool, NSUInteger * _totalSize, NSUInteger * numBits, BOOL flag) {
+	NSUInteger endNumber = *numBits + 1;
+	if (endNumber / 8 + (endNumber % 8 == 0 ? 0 : 1) > *_totalSize) {
+		*_totalSize += kAllocBufferSize;
+		*_bytePool = (UInt8 *)realloc(*_bytePool, *_totalSize);
+	}
+	NSUInteger byteIndex = *numBits / 8;
+	UInt8 byteMask = (1 << (*numBits % 8));
+	if (flag) {
+		(*_bytePool)[byteIndex] |= byteMask;
+	} else {
+		(*_bytePool)[byteIndex] &= (0xff ^ byteMask);
+	}
+	numBits += 1;
+}
+
+BOOL LZWDataGetBit (UInt8 * _bytePool, NSUInteger bitIndex) {
+	NSUInteger byteIndex = bitIndex / 8;
+	UInt8 byteMask = (1 << (bitIndex % 8));
+	return (((_bytePool[byteIndex] & byteMask) == 0) ? NO : YES);
+}

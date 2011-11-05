@@ -10,6 +10,9 @@
 
 #define BitOutOfRangeException @"BitOutOfRangeException"
 
+void LZWDataAddBit (UInt8 ** _bytePool, NSUInteger * _totalSize, NSUInteger * numBits, BOOL flag);
+BOOL LZWDataGetBit (UInt8 * _bytePool, NSUInteger bitIndex);
+
 @interface LZWSpoof : NSObject {
 	UInt8 * _bytePool;
 	NSUInteger _totalSize;
@@ -23,6 +26,10 @@
 - (id)initWithData:(NSData *)initialData;
 - (void)addBit:(BOOL)flag;
 - (BOOL)getBitAtIndex:(NSUInteger)bitIndex;
+
+- (void)addLZWClearCode;
+- (void)addByte:(NSUInteger)startBit fromBuffer:(LZWSpoof *)source;
+
 - (NSData *)convertToData;
 
 @end

@@ -36,7 +36,7 @@
 #else
 		images = [imageArray retain];
 #endif
-		self.backgroundColor = [UIColor whiteColor];
+		self.view.backgroundColor = [UIColor whiteColor];
 	}
 	return self;
 }
