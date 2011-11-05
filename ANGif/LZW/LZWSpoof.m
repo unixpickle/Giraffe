@@ -122,14 +122,14 @@ void LZWDataAddBit (UInt8 ** _bytePool, NSUInteger * _totalSize, NSUInteger * nu
 		*_totalSize += kAllocBufferSize;
 		*_bytePool = (UInt8 *)realloc(*_bytePool, *_totalSize);
 	}
-	NSUInteger byteIndex = *numBits / 8;
-	UInt8 byteMask = (1 << (*numBits % 8));
+	NSUInteger byteIndex = (*numBits) / 8;
+	UInt8 byteMask = (1 << ((*numBits) % 8));
 	if (flag) {
 		(*_bytePool)[byteIndex] |= byteMask;
 	} else {
 		(*_bytePool)[byteIndex] &= (0xff ^ byteMask);
 	}
-	numBits += 1;
+	*numBits += 1;
 }
 
 BOOL LZWDataGetBit (UInt8 * _bytePool, NSUInteger bitIndex) {
