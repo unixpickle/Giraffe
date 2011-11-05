@@ -21,17 +21,18 @@
 	LZWSpoof * destinationBuffer = [[LZWSpoof alloc] init];
 	LZWSpoof * existingBuffer = [[LZWSpoof alloc] initWithData:existingData];
 	
+	NSUInteger clearCodeCount = 254;
+	[destinationBuffer addLZWClearCode];
 	// loop through every byte, write it, and then write a clear code.
 	for (NSUInteger byteIndex = 0; byteIndex < [existingData length]; byteIndex++) {
-		// insert NULL start bit
-//		for (NSUInteger bitIndex = byteIndex * 8; bitIndex < (byteIndex + 1) * 8; bitIndex++) {
-//			// NSUInteger bitIndexFlip = (bitIndex - (bitIndex % 8)) + (7 - (bitIndex % 8));
-//			[destinationBuffer addBit:[existingBuffer getBitAtIndex:bitIndex]];
-//		}
 		[destinationBuffer addByte:(byteIndex * 8) fromBuffer:existingBuffer];
 		[destinationBuffer addBit:NO];
 		// add clear code (TODO: make this less frequent)
-		[destinationBuffer addLZWClearCode];
+		clearCodeCount--;
+		if (clearCodeCount == 0) {
+			[destinationBuffer addLZWClearCode];
+			clearCodeCount = 254;
+		}
 	}
 	
 	// LZW "STOP" directive
@@ -85,7 +86,7 @@
 	return LZWDataGetBit(_bytePool, bitIndex);
 }
 
-#pragma mark LZW
+#pragma mark LZW Buffer
 
 - (void)addLZWClearCode {
 	for (int i = 0; i < 8; i++) {
