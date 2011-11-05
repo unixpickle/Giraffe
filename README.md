@@ -5,6 +5,19 @@ Giraffe is a legacy name for a GIF encoder that I wrote long ago. Now, the GIF e
 
 Someone with the intention of using ANGif in their project should have a look at both the <tt>UIImagePixelSource.m</tt> and <tt>ExportViewController.m</tt> files. These are what use ANGif in conjunction with ANImageBitmapRep to export GIF images on the iPhone. ANGif itself does not require ANImageBitmapRep to work, but my example does require it.
 
+ANGif Example
+-------------
+
+Just to give a sense of the easy-to-use ANGif library, here is an example of what encoding an animated GIF could look like:
+
+    ANGifEncoder * encoder = [[ANGifEncoder alloc] initWithOutputFile:@"myFile.gif" size:CGSizeMake(100, 100) globalColorTable:nil];
+    [encoder addApplicationExtension:[[ANGifNetscapeAppExtension alloc] init]];
+    [encoder addImageFrame:anImageFrame];
+    [encoder addImageFrame:anotherImageFrame];
+    [encoder closeFile];
+
+The <tt>addImageFrame:</tt> method takes an instance of <tt>ANGifImageFrame</tt>, which can be created in several different ways. In order to provide a UIImage to work with ANGif, a class must be made that implements the <tt>ANGifImageFramePixelSource</tt> protocol. In Giraffe, the <tt>UIImagePixelSource</tt> class is a simple UIImage wrapper that implements this protocol. The <tt>ANGifImageFrame</tt> object is also what includes the delay time (a.k.a. frame rate).
+
 License
 =======
 

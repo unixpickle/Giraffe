@@ -27,7 +27,6 @@
 	for (NSUInteger byteIndex = 0; byteIndex < [existingData length]; byteIndex++) {
 		[destinationBuffer addByte:(byteIndex * 8) fromBuffer:existingBuffer];
 		[destinationBuffer addBit:NO];
-		// add clear code (TODO: make this less frequent)
 		clearCodeCount--;
 		if (clearCodeCount == 0) {
 			[destinationBuffer addLZWClearCode];
